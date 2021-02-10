@@ -9,9 +9,9 @@ class Quiz extends React.Component {
         };
 
     render() {
-      const quest_text = quizData.quiz_questions[0];
+
         return <div>
-        <div className="QuizQuestion"> {quest_text.instruction_text}
+        <div className="QuizQuestion"> {quizData.quiz_questions[0].quest_text.instruction_text}
           </div>
 </div>
     };
