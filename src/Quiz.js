@@ -14,7 +14,7 @@ class Quiz extends Component {
 //    const [isQuizEnd] = useState(0)
     return (
       <div>
-        <QuizEnd/>
+        <QuizEnd />
         <QuizQuestion quiz_question={quizData.quiz_questions[this.state.quiz_position -1]}/>
       </div>
     )
