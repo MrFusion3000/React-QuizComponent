@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class  extends Component {
+class QuizEnd extends Component {
     state = {  }
     render() {
         return (
